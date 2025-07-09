@@ -1,0 +1,20 @@
+{
+  "name": "@limitlesspc/prettier-config",
+  "version": "1.0.0",
+  "description": "Configuration for Prettier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limitlesspc/prettier-config.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": "./index.js",
+  "peerDependencies": {
+    "prettier": ">=3.1.0"
+  }
+}
